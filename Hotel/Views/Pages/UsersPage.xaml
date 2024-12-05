@@ -80,9 +80,9 @@
 
                 <DatePicker Grid.Row="8" Grid.Column="2" IsHitTestVisible="False" SelectedDate="{Binding RegistrationDate}"/>
 
-                <CheckBox Grid.Row="10" Grid.ColumnSpan="3" Content="заблокировать" IsChecked="{Binding IsBlocked}"/>
+                <CheckBox Grid.Row="10" Grid.ColumnSpan="3" Content="заблокировать" IsChecked="{Binding IsBlocked}" VerticalAlignment="Center"/>
 
-                <CheckBox Grid.Row="12" Grid.ColumnSpan="3" Content="Сменил пароль" IsHitTestVisible="False" IsChecked="{Binding IsActivated}"/>
+                <CheckBox Grid.Row="12" Grid.ColumnSpan="3" Content="Сменил пароль" IsHitTestVisible="False" IsChecked="{Binding IsActivated}" VerticalAlignment="Center"/>
 
                 <Button Name="SaveChangeBtn" Grid.Row="14" Grid.ColumnSpan="3" 
             Content="Сохранить изменение" Click="SaveChangeBtn_Click"/>

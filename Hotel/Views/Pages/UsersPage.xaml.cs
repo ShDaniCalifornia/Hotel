@@ -25,6 +25,7 @@ namespace Hotel.Views.Pages
         private void SaveChangeBtn_Click(object sender, RoutedEventArgs e)
         {
             FeedBack.Information("Иноформация успешно изменена!");
+            App.context.SaveChanges();
         }
 
         private void AddUserBtn_Click(object sender, RoutedEventArgs e)
